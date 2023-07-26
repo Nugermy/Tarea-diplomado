@@ -1,0 +1,258 @@
+header {
+    
+    height: 120px;
+    background-color:rgb(254,221,0);
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    
+}
+figure {
+    width: 10%;
+    float: left;
+}
+figure img {
+    height: 80px; 
+}
+nav {
+    float:left;
+    width: 70%;
+    margin-left: 300px;
+}
+.link {
+    margin-top: 0.5em;
+
+}
+.link-1 {
+float:left;
+list-style-image: url(../img/toons_homer_simpson_homersimpson_2387.ico) ;
+margin-left:4em;
+
+color:rgb(237,49,51);
+font-family:'Akaya Kanadaka', cursive;
+font-weight: bold;
+font-size: 7.5mm;
+
+}
+.link-2 {
+    float:left;
+    list-style-image: url(../img/toons_marge_simpson_margesimpson_2379.ico)  ;
+    margin-left:4em;
+    
+    color:rgb(237,49,51);
+    font-family:'Akaya Kanadaka', cursive;
+    font-weight: bold;
+    font-size: 7.5mm;
+    
+    }
+.link-3 {
+float:left;
+
+margin-left:4em;
+list-style-image: url(../img/toons_bart_simpson_bartsimpson_patin_2371.ico);
+color:rgb(237,49,51);
+font-family:'Akaya Kanadaka', cursive;
+font-weight: bold;
+font-size: 7.5mm;
+
+}
+.link-4 {
+    float:left;
+    
+    margin-left:4em;
+    list-style-image: url(../img/toons_lisa_simpson_lisasimpson_2378.ico);
+    color:rgb(237,49,51);
+    font-family:'Akaya Kanadaka', cursive;
+    font-weight: bold;
+    font-size: 7.5mm;
+    
+    }
+    .link-5 {
+        float:left;
+        
+        margin-left:4em;
+        list-style-image: url(../img/toons_maggiesimpson_maggiesimpson_toons_2380.ico);
+        color:rgb(237,49,51);
+        font-family:'Akaya Kanadaka', cursive;
+        font-weight: bold;
+        font-size: 7.5mm;
+        
+        }
+    .link-6 {
+            float:left;
+            
+            margin-left:4em;
+            list-style-image: url(../img/toons_thesimpsons_simpsons_simpson_2372.ico);
+            color:rgb(237,49,51);
+            font-family:'Akaya Kanadaka', cursive;
+            font-weight: bold;
+            font-size: 7.5mm;
+            
+            }
+aside {
+    width: 15%;
+    height: 1100px;
+    float: right;
+    padding-top: 120px;
+     
+  
+}
+/* CONTENEDOR */
+#contenedor {
+    height: 960px;
+}
+/*  Secciones   */
+
+#registro {
+    padding-top: 110px;
+    width: 85%;
+    float: left;
+    height: 265px;
+}
+#historia {
+    padding-top: 100px;
+    width: 85%;
+    float: left;
+    height: 380px;
+}
+#escenario {
+    padding-top: 100px;
+    width: 85%;
+    float: left;
+    height: 300px;
+}
+#temas {
+    padding-top: 100px;
+    width: 85%;
+    float: left;
+    height: 300px;
+}
+#video {
+    padding-top: 100px;
+    width: 85%;
+    float: left;
+    height: 50px;
+}
+
+section h1 {
+    margin-bottom: 1mm;
+    background:  linear-gradient(to right,rgb(254,221,0,.9),rgb(254,221,0,.5));
+    color:rgb(1, 54, 77);
+    font-family:'Akaya Kanadaka', cursive;
+    text-decoration:underline;
+    font-weight: bold;
+    text-indent: 0.3em;
+    
+}
+.art-registro {
+    width: 99%;
+    height: 950px;
+    float: left;
+    margin: 0.5em;
+    background-color: rgb(254,221,0,.81);
+    border: 5px solid rgb(237,49,51);
+    border-radius: 20px;
+}
+article h3 {
+    color:rgb(1, 54, 77);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    line-height: 1.2em;
+    text-indent: 1em;
+    letter-spacing: 0.3px;
+    word-spacing: 0.3px;
+}
+article h2 {
+    color:rgb(1, 54, 77);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 1.2em;
+    text-indent: 1em;
+    text-decoration: underline;
+    letter-spacing: 0.3px;
+    word-spacing: 0.3px;
+    margin-left: 17.5em;
+}
+.art-historia {
+    width: 99%;
+    height: 420px;
+    float: left;
+    margin: 0.5em;
+    background-color: rgb(254,221,0,.8);
+}
+.art-escenario {
+    width: 99%;
+    height: 330px;
+    float: left;
+    margin: 0.5em;
+    background-color: rgb(254,221,0,.8);
+}
+.art-temas {
+    width: 99%;
+    height: 300px;
+    float: left;
+    margin: 0.5em;
+    background-color: rgb(254,221,0,.8);
+
+}
+
+.art-video video {
+
+    width: 1200px;
+    height: 720px;
+    float: left;
+    margin: 0.5em;
+  
+
+}
+/*Estilos del formulario*/
+form {
+    width: 610px;
+    margin: 0 30%;
+    background-color: rgb(254,221,0,0.70);
+    border: 4px solid rgb(237,49,51);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; */
+}
+form label {
+    font-family:'Akaya Kanadaka', cursive;
+    font-size: 1.3em;
+    color: rgb(1, 54, 77);
+    font-weight:bolder;
+}
+.btn-form {
+    background-color: rgb(237,49,51);
+    color: white;
+    width: 170px;
+    font-size: 1.15em;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/*  FOOTER  */
+
+footer {
+    background-color: rgb(254,221,0);
+    text-align: center;
+    height: 100px;
+    margin-top: 260px;
+    width: 102%;
+}
+footer h4 {
+    margin-top: 0.3mm;
+    font-family:'Akaya Kanadaka', cursive;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: rgb(237,49,51);
+}
+
+.fondo {
+background-image: url(https://vignette.wikia.nocookie.net/lossimpson/images/5/50/Wiki-background/revision/latest?cb=20200108235134&path-prefix=es);
+}

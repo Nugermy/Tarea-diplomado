@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+
+    <title>Los Simpsons</title>
+</head>
+<body class="fondo">
+    
+<header>
+    <a href="../index.html">
+        <figure>
+            <img src="../img/logo1.jpg" alt=""  width="220px">
+        </figure>
+    </a>
+
+        <nav>
+            <ul class="link">
+                <a href="../index.html">
+                    <li class="link-1">Inicio</li>
+                </a>
+                <a href="../pages personajes/personajes.html">
+                    <li class="link-2">Personajes</li>
+                </a>
+                <a href="../pages animales/animales.html">
+                    <li class="link-3">Animales</li>
+                </a>
+              
+                <a href="../pages familias/family.html">
+                    <li class="link-4">Familias</li>
+                </a>
+
+                <a href="./registro.html">
+                    <li class="link-5">Registrar</li>
+                </a>
+
+                <a href="../pages clientes/clientes.html">
+                    <li class="link-6">Clientes</li>
+                </a>
+            </ul>
+        </nav>
+</header>
+<div id="contenedor">
+    <aside>
+        <img src="../img/Sin título.png" alt="asd" width="110%" height="100%">
+    </aside>
+    <!-- FORMULARIO DE REGISTRO -->
+    <section id="registro">
+        <h1> Registrate para unirte al Fandom Simpsons</h1>
+        <article class="art-registro">
+            <h2>Llena los campos de registro</h2>
+            <div style="display:flex;">
+            <form action="procesar.php" method="get">
+
+                <label for="">Nombre:</label>
+                <input type="text" name="nombre"  id="name" placeholder="Tu nombre aqui." required> <br> <br>
+                <label for="">Apellido: </label>
+                <input type="text" name="apellido"  id="last-name" placeholder="Tu apellido aqui." maxlength="10"><br><br>
+                <label for="">Correo: </label>
+                <input type="email" name="correo" id="email" placeholder="Deja tu correo aqui." required><br><br>
+                <label for="">Contraseña: </label>
+                <input type="password" name="clave" id="password" placeholder="Deja tu clave aqui." required><br><br>
+                <label for="">Cuentanos, porque te gusta Los Simpsons? </label><br>
+                <textarea name="descripcion" id="" cols="30" rows="4" maxlength="100"></textarea><br><br>
+
+                <label for="">Selecciona tu personaje favorito: </label>
+                <select name="personaje" id="">
+                    <option value="1">Homero Simpson</option>
+                    <option value="2">Bart Simpson</option>
+                    <option value="3">Apu Nahasapeemapetilon</option>
+                    <option value="4">Flanders</option>
+                    <option value="5">Moe Szyslak</option>
+                    <option value="6">Seymour Skinner</option>
+                    <option value="7">Otto Mann</option>
+                    <option value="8">Bob Terwilliger</option>
+                    <option value="9">Duffman</option>
+                    <option value="10">Lisa Simpson</option>
+                </select><br><br>
+                <label for="">Selecciona tu sexo: </label>
+                <select name="sexo" id="">
+                    <option value="1">Hombre</option>
+                    <option value="2">Mujer</option>
+                   
+                </select><br><br>
+                <label for=""> Selecciona de estas temporadas cuales son las que mas te han gustado?</label> <br><br>
+                <label for=""> <input type="checkbox" name="temporada4" id="1" value="1checkbox" > Temporada 4</label> <br><br>
+                <label for=""> <input type="checkbox" name="temporada5" id="2" value="2checkbox" > Temporada 5</label> <br><br>
+                <label for=""> <input type="checkbox" name="temporada6" id="3" value="3checkbox" > Temporada 6</label> <br><br>
+                <label for=""> <input type="checkbox" name="temporada7" id="4" value="4checkbox" > Temporada 7</label> <br><br>
+                <label for=""> <input type="checkbox" name="temporada8" id="5" value="5checkbox" > Temporada 8</label> <br><br>
+                
+                <label for="">Estado Civil</label><br>
+                <input type="radio" name="civil" value="1" id="">Soltero <br>
+                <input type="radio" name="civil" value="2" id="">Casado/Casada <br>
+                <input type="radio" name="civil" value="3" id="">Divorciado <br>
+                <input type="radio" name="civil" value="4" id="">Viudo <br><br>
+
+                <input class="btn-form" type="submit" value="Registrar">
+                <input class="btn-form" type="reset" value="Borrar Todo">
+
+            </form>
+            </div>
+        </article>
+    </section>
+</div> 
+
+
+ 
+<footer>
+    <h4> Samuel Toro &copy 2021 COPYRIGHT 2021 TODOS LOS DERECHOS RESERVADOS</h4>
+</footer>
+
+
+
+
+</body>
+</html>

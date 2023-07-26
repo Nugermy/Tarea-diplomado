@@ -1,0 +1,248 @@
+header {
+    
+    height: 120px;
+    background-color:rgb(254,221,0);
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    
+}
+figure {
+    width: 10%;
+    float: left;
+}
+figure img {
+    height: 80px; 
+}
+nav {
+    float:left;
+    width: 70%;
+    margin-left: 300px;
+
+}
+.link {
+    margin-top: 0.5em;
+
+}
+.link-1 {
+float:left;
+list-style-image: url(../img/toons_homer_simpson_homersimpson_2387.ico) ;
+margin-left:4em;
+
+color:rgb(237,49,51);
+font-family:'Akaya Kanadaka', cursive;
+font-weight: bold;
+font-size: 7.5mm;
+
+}
+.link-2 {
+    float:left;
+    list-style-image: url(../img/toons_lisa_simpson_lisasimpson_2378.ico)  ;
+    margin-left:4em;
+    
+    color:rgb(237,49,51);
+    font-family:'Akaya Kanadaka', cursive;
+    font-weight: bold;
+    font-size: 7.5mm;
+    
+    }
+.link-3 {
+float:left;
+
+margin-left:4em;
+list-style-image: url(../img/toons_marge_simpson_margesimpson_2379.ico);
+color:rgb(237,49,51);
+font-family:'Akaya Kanadaka', cursive;
+font-weight: bold;
+font-size: 7.5mm;
+
+}
+.link-4 {
+    float:left;
+    
+    margin-left:4em;
+    list-style-image: url(../img/toons_bart_simpson_bartsimpson_patin_2371.ico);
+    color:rgb(237,49,51);
+    font-family:'Akaya Kanadaka', cursive;
+    font-weight: bold;
+    font-size: 7.5mm;
+    
+    }
+    .link-5 {
+        float:left;
+        
+        margin-left:4em;
+        list-style-image: url(../img/toons_maggiesimpson_maggiesimpson_toons_2380.ico);
+        color:rgb(237,49,51);
+        font-family:'Akaya Kanadaka', cursive;
+        font-weight: bold;
+        font-size: 7.5mm;
+        
+        }
+    .link-6 {
+            float:left;
+            
+            margin-left:4em;
+            list-style-image: url(../img/toons_thesimpsons_simpsons_simpson_2372.ico);
+            color:rgb(237,49,51);
+            font-family:'Akaya Kanadaka', cursive;
+            font-weight: bold;
+            font-size: 7.5mm;
+            
+            }
+aside {
+    width: 15%;
+    height: 1035px;
+    float: right;
+    padding-top: 120px;
+     
+  
+}
+/* CONTENEDOR */
+#contenedor {
+    height: 895px;
+}
+/*  Secciones   */
+
+#mamiferos {
+    padding-top: 120px;
+    width: 85%;
+    float: left;
+    height: 385px;
+}
+#peces {
+    padding-top: 100px;
+    width: 85%;
+    float: left;
+    height: 160px;
+}
+#anfibio {
+    padding-top: 100px;
+    width: 85%;
+    float: left;
+    height: 120px;
+}
+
+section h1 {
+    margin-bottom: 1mm;
+    background:  linear-gradient(to right,rgb(254,221,0,.9),rgb(254,221,0,.5));
+    color:rgb(1, 54, 77);
+    font-family:'Akaya Kanadaka', cursive;
+    text-decoration:underline;
+    font-weight: bold;
+    text-indent: 0.3em;
+}
+.art-mamiferos {
+    width: 99%;
+    height: 400px;
+    float: left;
+    margin: 0.5em;
+    background-color: rgb(254,221,0,.8);
+}
+.art-mamiferos img {
+    width: 100px;
+    height:180px;
+    margin-left: 0.2em;
+    padding-top: 10px;
+}
+
+.art-mamiferos a{
+   margin-left: 0.7em;
+    font-family:'Akaya Kanadaka', cursive;
+    text-align: -webkit-center;
+
+}
+ 
+
+li {
+    list-style: none;
+    color:rgb(1, 54, 77) ;
+    font-size: 1.7em;
+   
+    font-weight: bold;
+    text-indent: 2px;
+    text-align: right;
+    
+}
+article h3 {
+    color:rgb(1, 54, 77);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    line-height: 1.2em;
+    text-indent: 1em;
+}
+.art-peces {
+    width: 99%;
+    height:180px;
+    float: left;
+    margin: 0.5em;
+    background-color: rgb(254,221,0,.8);
+
+}
+.art-peces img {
+    width: 140px;
+    margin-left: 0.2em;
+
+}
+
+.art-peces a{
+   margin-left: 0.7em;
+    font-family:'Akaya Kanadaka', cursive;
+    text-align: -webkit-center;
+
+}
+.art-anfibio {
+    width: 99%;
+    height: 200px;
+    float: left;
+    margin: 0.5em;
+    background-color: rgb(254,221,0,.8);
+}
+.art-anfibio img {
+    width: 115px;
+    height:180px;
+    margin-left: 0.2em;
+    padding-top: 10px;
+}
+
+.art-anfibio a{
+   margin-left: 0.7em;
+    font-family:'Akaya Kanadaka', cursive;
+    text-align: -webkit-center;
+
+}
+
+.art-temas {
+    width: 99%;
+    height: 300px;
+    float: left;
+    margin: 0.5em;
+    background-color: rgb(254,221,0,.8);
+
+}
+
+
+
+
+
+/*  FOOTER  */
+
+footer {
+    background-color: rgb(254,221,0);
+    text-align: center;
+    height: 100px;
+    margin-top: 260px;
+    width: 102%;
+}
+footer h4 {
+    margin-top: 0.3mm;
+    font-family:'Akaya Kanadaka', cursive;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: rgb(237,49,51);
+}
+
+.fondo {
+background-image: url(https://vignette.wikia.nocookie.net/lossimpson/images/5/50/Wiki-background/revision/latest?cb=20200108235134&path-prefix=es);
+}   
